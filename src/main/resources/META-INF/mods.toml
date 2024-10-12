@@ -5,8 +5,8 @@ license="MIT"
 [[mods]]
 modId="${mod_id}"
 version="1.0.0"
-displayName="Kl Patch Mod"
-description='''This mod fixes some.'''
+displayName="VS additional commands"
+description='''This mod add more commands for VS.'''
 
 [[dependencies.${mod_id}]]
 modId="valkyrienskies"

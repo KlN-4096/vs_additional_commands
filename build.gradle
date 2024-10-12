@@ -97,10 +97,6 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // 使用本地 jar 作为依赖
-    implementation files('libs/refinedstorage-1.12.4.jar')
-    implementation files('libs/sophisticatedbackpacks-1.20.1-3.20.9.1103.jar')
-//    implementation files('libs/[temp]VMod-Forge-1.20.1-0.1.0.jar')
     api("org.valkyrienskies:valkyrienskies-120-forge:${rootProject.vs2_version}") { transitive = false }
     implementation("org.valkyrienskies.core:api:${rootProject.vs_core_version}") { transitive = false }
 }
