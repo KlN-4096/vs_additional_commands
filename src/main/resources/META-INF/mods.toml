@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"  # Minecraft 1.20.1 Forge 版本
+license="MIT"
+
+[[mods]]
+modId="${mod_id}"
+version="1.0.0"
+displayName="Kl Patch Mod"
+description='''This mod fixes some.'''
+
+[[dependencies.${mod_id}]]
+modId="valkyrienskies"
+mandatory=true
+versionRange="[2.3.0-beta5,)"  # 确保与 Geckolib 4.4.9 或更高版本兼容
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
